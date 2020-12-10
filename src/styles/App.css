@@ -1,0 +1,19 @@
+#sidebar {
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #74be51;
+    padding: 5%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 190);
+    overflow-y: scroll;
+}

@@ -1,0 +1,43 @@
+.tab {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+    padding: 2% 5%;
+    align-items: center;
+}
+
+.tab:hover {
+    background-color: rgb(255, 255, 190);
+}
+
+#tab-inactive {
+    background-color:  rgb(228, 228, 143);
+}
+
+#tab-active {
+    background-color: rgb(255, 255, 190);
+}
+
+.card {
+    margin: 2%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5%;
+    display: block;
+    cursor: pointer;
+}
+
+.load-button {
+    margin: 5%;
+    margin-bottom: 0%;
+    padding: 2% 5%;
+    width: auto;
+    background: white;
+    display: block;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 5%;
+}
