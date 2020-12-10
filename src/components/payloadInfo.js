@@ -20,7 +20,7 @@ const PayloadInfo = () => {
                                 Reference System:&nbsp;{store.getState().pldSideData.orbit_params.reference_system}
                             </div>
                             <div>
-                                Regime:&nbsp;{store.getState().pldSideData.orbit_params.reference_system}
+                                Regime:&nbsp;{store.getState().pldSideData.orbit_params.regime}
                             </div>
                             <div>
                                 Weight in kg:&nbsp;{store.getState().pldSideData.payload_mass_kg}
